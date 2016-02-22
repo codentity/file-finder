@@ -1,9 +1,9 @@
-# codentity/file-finder
+# codentity-file-finder
 
 ## Usage
 
 ```js
-const FileFinder = require('codentity/FileFinder');
+const FileFinder = require('file-finder');
 const fs = require('fs');
 
 let finder = FileFinder.make({
