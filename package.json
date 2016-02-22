@@ -1,0 +1,19 @@
+{
+  "name": "file-finder",
+  "version": "0.1.0",
+  "description": "Find files with ease.",
+  "main": "lib/FileFinder.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.spec.js"
+  },
+  "keywords": [],
+  "author": "Jack Stevens <jack@applyr.com>",
+  "license": "ISC",
+  "dependencies": {
+    "minimatch": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
